@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/02/49/30/81/360_F_249308102_ypUkGuXr14EblOK5o15J5leCyM43bVIP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.parentdiv{
+    width: 40%;
+    margin-top: 15%;
+    background-color: rgba(0, 255, 255, 0.4); 
+    height: 30vh;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
+
+#time{
+    color: burlywood;
+    font-size: 40px;
+    margin-left: 34%;
+    margin-top: 15px;
+}
+
+.child{
+    height: 40%;
+    gap: 40;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.btn-start{
+    margin-left: 30%;
+    height: 35%;
+    width: 10%;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+.btn-stop{  
+    height: 35%;
+    width: 10%;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+.btn-reset{
+    height: 35%;
+    width: 10%;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+.btn-start:hover{
+    color: white;
+    background-color: black;
+}
+.btn-stop:hover{
+    color: white;
+    background-color: black;
+}
+.btn-reset:hover{
+    color: white;
+    background-color: black;
+}
